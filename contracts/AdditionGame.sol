@@ -22,7 +22,7 @@ contract AdditionGame {
     function transfer(uint _value) public returns(bool){
         //잔액확인
         require(getBalance() >= _value);
-        //전송
+        //전송!!!!
         msg.sender.transfer(_value);
         return true;
     }
